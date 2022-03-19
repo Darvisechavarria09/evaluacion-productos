@@ -1,4 +1,3 @@
-
 from itertools import count
 listaNumeros=[]
 
@@ -9,12 +8,9 @@ for i in range(longitud):
     numeroIngresado=int(input("ingrese un numero: "))
     if(numeroIngresado % 2==0):
         cout1=cout1+1
+
     if(numeroIngresado % 3==0):
         cout2=cout2+1
-    #listaNumeros.append(numeroIngresado)
 
-if(numeroIngresado % 2==0):
-    print(f'hay {cout1} multiplos de 2')
-
-if(numeroIngresado % 3==0):
-    print(f'hay {cout2} multiplos de 3')
+print(f'hay {cout1} multiplos de 2')
+print(f'hay {cout2} multiplos de 3')
